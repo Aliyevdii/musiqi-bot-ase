@@ -62,7 +62,7 @@ def cb_admin_check(func: Callable) -> Callable:
         if cb.from_user.id in admemes:
             return await func(client, cb)
         else:
-            await cb.answer("İcazə vermirəm :/\n@SirinCayBoss", show_alert=True)
+            await cb.answer("İcazə vermirəm :/\n@A_l_i_y_e_v_d_i", show_alert=True)
             return
 
     return decorator
@@ -438,7 +438,7 @@ async def play(_, message: Message):
                         message.chat.id, "Səslidə musiqi oynamaq üçün bu qrupa qoşuldum"
                     )
                     await lel.edit(
-                        "<b>Asistan Grupa Qatıldı!\n@RythMusiqiAze 🔥</b>",
+                        "<b>Asistan Grupa Qatıldı!\n@NEXUS_MMC 🔥</b>",
                     )
 
                 except UserAlreadyParticipant:
