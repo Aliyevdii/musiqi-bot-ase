@@ -2,7 +2,7 @@
   "name": "RythmMusiqiV2",
   "description": "Telegram Qrup Səsli Söhbətinizdə mahnı oxumaq üçün, Açıq Qaynaqlı bot.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/sirincay2/RythmMusiqiV2",
+  "repository": "https://github.com/Aliyevdii/musiqi-bot-ase",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
