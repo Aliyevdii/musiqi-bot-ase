@@ -11,6 +11,6 @@ from DaisyXMusic.services.callsmusic.callsmusic import client as USER
 async def pmPermit(client: USER, message: Message):
     await USER.send_message(
         message.chat.id,
-        "Salam bu @RythmMusiqiBot Asistan hesabıdır!\n\n👉 **BOT GRUPA QATILMAZSA BOTU ƏL İLƏ GRUPA QATIN**\n\n**QAYDALAR**❗️\n- Hesaba gizli məlumatıarınızı yazmayın\n- Hesabı kontakta əlavə etməyin\n- Hesabı gizli gruplarınıza əlavə etməyin\n\nUnutmayın ki admin asistan hesabına yazılan mesaları görur\nQaydalara əməl etmədiyiniz halda hər hansı bir prablem olarsa **GROUP MUZİK BOT** admini heçbir məsuliyət daşımır❗️ \n\n**Bota bağlı köməyə ehtiyacınız olarsa dəstək grupuna və ya bot sahibindən kömək alın\n\nDəstək grupu: @AzRobotGroup\nBot Sahibi: @SirinCayBoss",
+        "Salam bu @Asistan_Nexus Asistan hesabıdır!\n\n👉 **BOT GRUPA QATILMAZSA BOTU ƏL İLƏ GRUPA QATIN**\n\n**QAYDALAR**❗️\n- Hesaba gizli məlumatıarınızı yazmayın\n- Hesabı kontakta əlavə etməyin\n- Hesabı gizli gruplarınıza əlavə etməyin\n\nUnutmayın ki admin asistan hesabına yazılan mesaları görur\nQaydalara əməl etmədiyiniz halda hər hansı bir prablem olarsa **#NEXUS MUZİK BOT** admini heçbir məsuliyət daşımır❗️ \n\n**Bota bağlı köməyə ehtiyacınız olarsa dəstək grupuna və ya bot sahibindən kömək alın\n\nDəstək grupu: @NEXUS_MMCp\nBot Sahibi: @A_l_i_y_e_v_d_i",
     )
     return
