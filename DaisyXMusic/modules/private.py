@@ -29,8 +29,8 @@ def _start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                [InlineKeyboardButton("➕ Grupa əlavə et", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-               [InlineKeyboardButton(text = '🖥 Yeniləmə kanalı', url=f"https://t.me/{UPDATES_CHANNEL}"),
-               InlineKeyboardButton(text = '💬 Dəstək grupu', url=f"https://t.me/{SUPPORT_GROUP}")]
+               [InlineKeyboardButton(text = '🖥 Support kanalı', url=f"https://t.me/{UPDATES_CHANNEL}"),
+               InlineKeyboardButton(text = '💬 Söhbət grupu', url=f"https://t.me/{SUPPORT_GROUP}")]
             ]
         ),
         reply_to_message_id=message.message_id
@@ -44,7 +44,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💡 Dəstək grupu", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💡 Supprot grupu", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ]
             ]
@@ -85,8 +85,8 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Grupa əlavə et", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '🖥 Yeniləmə kanalı', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '💬 Dəstək grupu', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton(text = '🖥 Support kanalı', url=f"https://t.me/{UPDATES_CHANNEL}"),
+             InlineKeyboardButton(text = '💬 Söhbət grupu', url=f"https://t.me/{SUPPORT_GROUP}")],
             [InlineKeyboardButton(text = '❓ Kömək', callback_data = f"help+{pos-1}")]
         ]
     else:
